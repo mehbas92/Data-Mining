@@ -8,18 +8,18 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 Reference book: Data Mining: Theories, Algorithms and Examples by Nong Ye (Exercise 3.1)
 
 Building a naïve Bayes classifier to classify a balloon as inflated or not based on its attributes such as
-color, size, age and act and then evaluating the classification performance of the model by computing 
+color, size, age, and act and then evaluating the classification performance of the model by computing 
 what ratio of the records in the data set are correctly classified by the model.
 
 Here is the intuition behind the model using Bayes Theorem:
 
 P(C) = prior probability of class C (in this case either inflated or not)
-P(xi|C) = likelihood of the occurence of xi given C; Ex: likelihood of the balloon being yellow, given it is inflated
-Product(P(xi|C)) = product of the likelihoods of all categorical attributes in the train dataset given the class is C
+P(xi|C) = likelihood of the occurrence of xi given C; Ex: likelihood of the balloon being yellow, given it is inflated
+Product(P(xi|C)) = product of the likelihoods of all categorical attributes in the training dataset given the class is C
 
-Then the posterior probability each class is calculated as:
+The posterior probability of each class is then calculated as follows:
 P(C`) = P(C) * Product(P(xi|C))
-To make a prediction for the test data select class with the highest posterior probability 
+To make a prediction for the test data select the class with the highest posterior probability 
 
 All categorical values need to be assigned a numeric value for the scikit model to understand
 '''
