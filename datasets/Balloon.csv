@@ -1,0 +1,17 @@
+Instance,Color,Size,Act,Age,Inflated
+1,Yellow,Small,Stretch,Adult,T
+2,Yellow,Small,Stretch,Child,T
+3,Yellow,Small,Dip,Adult,T
+4,Yellow,Small,Dip,Child,T
+5,Yellow,Large,Stretch,Adult,T
+6,Yellow,Large,Stretch,Child,F
+7,Yellow,Large,Dip,Adult,F
+8,Yellow,Large,Dip,Child,F
+9,Purple,Small,Stretch,Adult,T
+10,Purple,Small,Stretch,Child,F
+11,Purple,Small,Dip,Adult,F
+12,Purple,Small,Dip,Child,F
+13,Purple,Large,Stretch,Adult,T
+14,Purple,Large,Stretch,Child,F
+15,Purple,Large,Dip,Adult,F
+16,Purple,Large,Dip,Child,F
